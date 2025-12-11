@@ -91,6 +91,7 @@ body {
 }
 
 .intro__img{
+    /* temporary */
     width: 450px;
 }
 
@@ -100,7 +101,7 @@ body {
     gap: 60px;
 }
 
-.intro__text-upper{
+.text__upper{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -133,7 +134,7 @@ body {
 
 .skills{
     margin-top: 100px;
-    padding: 60px 0;
+    padding: 100px 0;
     background-color: #221F3B;
 }
 .skills__inner{
@@ -168,4 +169,84 @@ body {
     font-weight: 400;
     line-height: 40px;
     padding-right: 20px;
+}
+
+.projects{
+    margin: 100px 0;
+}
+
+.projects__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.text__center{
+    align-items: center;
+}
+
+.projects__lower {
+    display: flex;
+    gap: 100px;
+}
+
+.projects__card{
+    background-color: #221F3B;
+    padding: 20px;
+    width: min-content;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.projects__card-image{
+    /* temporary */
+    width: 450px;
+    border-radius: 30px;
+}
+
+.projects__card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects__card-title{
+    color: #6F4A8E;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.projects__card-link{
+    background-color: #050505;
+    color: #6F4A8E;
+    padding: 16px;
+    border-radius: 50px;
+    transition: all ease .2s;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.projects__card-link:hover{
+    background-color: #6F4A8E;
+    color: #ebebeb;
+    transition: all ease .2s;
+}
+
+.github__icon>path{
+    fill: #6F4A8E;
+    transition: all ease .2s;
+}
+
+.projects__card-link:hover>.github__icon>path{
+    fill: #EBEBEB;
+    transition: all ease .2s;
 }
