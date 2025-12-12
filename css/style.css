@@ -250,3 +250,33 @@ body {
     fill: #EBEBEB;
     transition: all ease .2s;
 }
+
+.footer{
+    background-color: #221F3B;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer__contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contacts-link{
+    color: #EBEBEB;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    transition: all ease .2s;
+}
+
+.footer__contacts-link:hover{
+    color: #6F4A8E;
+}
