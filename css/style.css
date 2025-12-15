@@ -86,6 +86,7 @@ body {
 
 .intro__inner{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 100px;
 }
@@ -253,25 +254,28 @@ body {
 
 .footer{
     background-color: #221F3B;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding: 20px;
 }
 
 .footer__inner{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-.footer__contacts{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts-item{
+    display: flex;
+    align-items: center;
+}
+
 .footer__contacts-link{
     color: #EBEBEB;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 40px;
     transition: all ease .2s;

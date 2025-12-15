@@ -2,11 +2,18 @@
     .intro__img {
         width: 350px;
     }
+    .projects__card-image {
+    width: 350px;
+    }
 }
 
 @media (max-width: 991px) {
     .header__navbar-items {
         align-items: center;
+    }
+    .projects__lower {
+        gap: 50px;
+        flex-direction: column;
     }
 }
 
@@ -28,11 +35,42 @@
     .text__upper {
         align-items: center;
     }
+
+    .skills {
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+    .projects {
+        margin: 50px 0;
+    }
+    .projects__card-link {
+        font-size: 19px;
+    }
+    .footer__inner{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
+@media (max-width: 500px) {
+    .skill__name {
+        font-size: 25px;
+    }
+    .projects__card-image {
+        width: 250px;
+    }
+}
+
 
 @media (max-width: 400px) {
     .intro__img {
         width: 250px;
+    }
+    .skills__items {
+        gap: 30px;
+    }
+    .skill__name {
+        font-size: 18px;
     }
 }
 
