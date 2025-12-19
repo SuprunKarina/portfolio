@@ -38,7 +38,7 @@ body {
     background-color: #050505;
 }
 
-.header{
+.header {
     background-color: #221F3B;
 }
 
@@ -46,9 +46,9 @@ body {
     max-width: 1230px;
     padding: 0 20px;
     margin: 0 auto;
-}  
+}
 
-.logo{
+.logo {
     color: #6F4A8E;
     font-size: 46px;
     font-weight: 900;
@@ -56,19 +56,19 @@ body {
     text-transform: uppercase;
 }
 
-.logo:hover{
+.logo:hover {
     color: #EBEBEB;
 }
 
-.header__navbar{
+.header__navbar {
     flex-grow: 0;
 }
 
-.header__navbar-items{
+.header__navbar-items {
     gap: 40px;
 }
 
-.header__nav-link{
+.header__nav-link {
     color: #EBEBEB;
     font-size: 16px;
     font-weight: 400;
@@ -76,33 +76,33 @@ body {
     text-transform: uppercase;
 }
 
-.header__nav-link:hover{
+.header__nav-link:hover {
     color: #6F4A8E;
 }
 
-.intro{
+.intro {
     margin-top: 100px;
 }
 
-.intro__inner{
+.intro__inner {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 100px;
 }
 
-.intro__img{
+.intro__img {
     /* temporary */
     width: 450px;
 }
 
-.intro__text{
+.intro__text {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
-.text__upper{
+.text__upper {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -116,7 +116,7 @@ body {
     text-transform: uppercase;
 }
 
-.subtitle{
+.subtitle {
     color: #6F4A8E;
     font-size: 16px;
     font-weight: 700;
@@ -125,7 +125,7 @@ body {
     text-transform: uppercase;
 }
 
-.paragraph{
+.paragraph {
     color: #EBEBEB;
     font-size: 16px;
     font-weight: 400;
@@ -133,38 +133,39 @@ body {
     letter-spacing: 1px;
 }
 
-.skills{
+.skills {
     margin-top: 100px;
     padding: 100px 0;
     background-color: #221F3B;
 }
-.skills__inner{
+
+.skills__inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
 }
 
-.skills__column{
+.skills__column {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.skills__items{
+.skills__items {
     display: flex;
     gap: 60px;
 }
 
-.a-skill{
+.a-skill {
     display: flex;
     align-items: center;
     background-color: #050505;
     border-radius: 50px;
 }
 
-.skill__name{
+.skill__name {
     color: #EBEBEB;
     font-size: 30px;
     font-weight: 400;
@@ -172,18 +173,18 @@ body {
     padding-right: 20px;
 }
 
-.projects{
+.projects {
     margin: 100px 0;
 }
 
-.projects__inner{
+.projects__inner {
     display: flex;
     flex-direction: column;
     gap: 60px;
     align-items: center;
 }
 
-.text__center{
+.text__center {
     align-items: center;
 }
 
@@ -192,7 +193,7 @@ body {
     gap: 100px;
 }
 
-.projects__card{
+.projects__card {
     background-color: #221F3B;
     padding: 20px;
     width: min-content;
@@ -203,19 +204,19 @@ body {
     gap: 20px;
 }
 
-.projects__card-image{
+.projects__card-image {
     /* temporary */
     width: 450px;
     border-radius: 30px;
 }
 
-.projects__card-text{
+.projects__card-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.projects__card-title{
+.projects__card-title {
     color: #6F4A8E;
     font-size: 26px;
     font-weight: 700;
@@ -223,7 +224,7 @@ body {
     text-transform: uppercase;
 }
 
-.projects__card-link{
+.projects__card-link {
     background-color: #050505;
     color: #6F4A8E;
     padding: 16px;
@@ -236,44 +237,44 @@ body {
     text-transform: uppercase;
 }
 
-.projects__card-link:hover{
+.projects__card-link:hover {
     background-color: #6F4A8E;
     color: #ebebeb;
     transition: all ease .2s;
 }
 
-.github__icon>path{
+.github__icon>path {
     fill: #6F4A8E;
     transition: all ease .2s;
 }
 
-.projects__card-link:hover>.github__icon>path{
+.projects__card-link:hover>.github__icon>path {
     fill: #EBEBEB;
     transition: all ease .2s;
 }
 
-.footer{
+.footer {
     background-color: #221F3B;
     padding: 20px;
 }
 
-.footer__inner{
+.footer__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__contacts{
+.footer__contacts {
     display: flex;
     flex-direction: column;
 }
 
-.footer__contacts-item{
+.footer__contacts-item {
     display: flex;
     align-items: center;
 }
 
-.footer__contacts-link{
+.footer__contacts-link {
     color: #EBEBEB;
     font-size: 20px;
     font-weight: 400;
@@ -281,6 +282,6 @@ body {
     transition: all ease .2s;
 }
 
-.footer__contacts-link:hover{
+.footer__contacts-link:hover {
     color: #6F4A8E;
 }

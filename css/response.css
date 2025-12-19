@@ -2,8 +2,9 @@
     .intro__img {
         width: 350px;
     }
+
     .projects__card-image {
-    width: 350px;
+        width: 350px;
     }
 }
 
@@ -11,6 +12,7 @@
     .header__navbar-items {
         align-items: center;
     }
+
     .projects__lower {
         gap: 50px;
         flex-direction: column;
@@ -40,13 +42,16 @@
         margin-top: 50px;
         padding: 50px 0;
     }
+
     .projects {
         margin: 50px 0;
     }
+
     .projects__card-link {
         font-size: 19px;
     }
-    .footer__inner{
+
+    .footer__inner {
         flex-direction: column;
         gap: 20px;
     }
@@ -56,6 +61,7 @@
     .skill__name {
         font-size: 25px;
     }
+
     .projects__card-image {
         width: 250px;
     }
@@ -66,9 +72,11 @@
     .intro__img {
         width: 250px;
     }
+
     .skills__items {
         gap: 30px;
     }
+
     .skill__name {
         font-size: 18px;
     }
