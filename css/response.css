@@ -3,8 +3,8 @@
         width: 350px;
     }
 
-    .projects__card-image {
-        width: 350px;
+    .projects__lower {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -13,10 +13,6 @@
         align-items: center;
     }
 
-    .projects__lower {
-        gap: 50px;
-        flex-direction: column;
-    }
 }
 
 @media (max-width: 800px) {
@@ -47,8 +43,12 @@
         margin: 50px 0;
     }
 
+    .projects__lower {
+        grid-template-columns: 1fr;
+    }
+
     .projects__card-link {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .footer__inner {
@@ -60,10 +60,6 @@
 @media (max-width: 500px) {
     .skill__name {
         font-size: 25px;
-    }
-
-    .projects__card-image {
-        width: 250px;
     }
 }
 

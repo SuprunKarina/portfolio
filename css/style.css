@@ -48,7 +48,8 @@ body {
     margin: 0 auto;
 }
 
-.logo {
+.logo,
+.logo:focus{
     color: #6F4A8E;
     font-size: 46px;
     font-weight: 900;
@@ -56,7 +57,7 @@ body {
     text-transform: uppercase;
 }
 
-.logo:hover {
+.logo:hover{
     color: #EBEBEB;
 }
 
@@ -80,6 +81,18 @@ body {
     color: #6F4A8E;
 }
 
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/burger-menu.svg);
+}
+
 .intro {
     margin-top: 100px;
 }
@@ -92,6 +105,7 @@ body {
 }
 
 .intro__img {
+    border-radius: 50px;
     /* temporary */
     width: 450px;
 }
@@ -189,14 +203,15 @@ body {
 }
 
 .projects__lower {
-    display: flex;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 
 .projects__card {
     background-color: #221F3B;
     padding: 20px;
-    width: min-content;
+    width: 100%;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -206,7 +221,7 @@ body {
 
 .projects__card-image {
     /* temporary */
-    width: 450px;
+    width: 100%;
     border-radius: 30px;
 }
 
